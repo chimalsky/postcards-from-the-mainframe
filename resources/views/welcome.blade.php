@@ -9,9 +9,10 @@
         <link href="{{ mix('css/main.css') }}" rel="stylesheet">
     </head>
     <body style="background: #bc8753" class="text-lg pt-8">
-        <section class="container mx-auto max-w-sm">
-            <p class="mb-4 text-center tracking-widest text-2xl 
-                font-semibold uppercase text-yellow-200">
+        <section class="container">
+            <p class="mb-4 tracking-widest text-xl md:text-2xl
+                font-semibold uppercase text-yellow-100 bg-gray-700 p-4
+                max-w-sm md:max-w-md border-b border-orange-300 border-t">
                 Here’s an image of some machines 
                 that paved our way...
                 been thinking of our ancestors. Not sure why...
