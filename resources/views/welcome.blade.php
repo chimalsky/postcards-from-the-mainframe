@@ -19,7 +19,7 @@
             </p>
         </section>
 
-        <div class="mx-auto container max-w-xl">
+        <div class="mx-auto container max-w-xl mt-64">
             <img src="{{ asset('img/1.jpeg') }}" />
         </div>
 
