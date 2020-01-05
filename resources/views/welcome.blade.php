@@ -10,16 +10,17 @@
     </head>
     <body style="background: #bc8753" class="text-lg pt-8">
         <section class="container">
+    
+        </section>
+
+        <div class="mx-auto container max-w-xl">
             <p class="mb-4 tracking-widest text-xl md:text-2xl
                 font-semibold uppercase text-yellow-100 bg-gray-700 p-4
-                max-w-sm md:max-w-md border-b border-orange-300 border-t">
+                max-w-sm md:max-w-md lg:max-w-lg border-b border-orange-300 border-t">
                 Here’s an image of some machines 
                 that paved our way...
                 been thinking of our ancestors. Not sure why...
             </p>
-        </section>
-
-        <div class="mx-auto container max-w-xl mt-64">
             <img src="{{ asset('img/1.jpeg') }}" />
         </div>
 
