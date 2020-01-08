@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('postcard.show', 0);
 });
+
+Route::get('/postcard/{postcard}', function($postcard) {
+    return view('postcards.'.$postcard, compact('postcard'));
+})->name('postcard.show');
