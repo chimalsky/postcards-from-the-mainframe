@@ -14,7 +14,7 @@
             that paved our way...
             been thinking of our ancestors. Not sure why...
         </p>
-        <img src="{{ asset('img/1.jpeg') }}" />
+        <img src="{{ asset('img/0.jpeg') }}" />
     </div>
 
     
